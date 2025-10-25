@@ -1,0 +1,122 @@
+/* 1200, 992, 768, 576 */
+@media(max-width: 1200px) {
+    .width {
+        width: 940px;
+      
+    }
+}
+
+@media(max-width: 992px) {
+    .width {
+       
+        width: 700px;
+    }
+    .grid_container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-inline: 40px;
+    }
+    .grid_second{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding-inline: 40px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .width {
+        width: 500px;
+        padding-inline: 10px;
+      
+    }
+    .left_a_header{
+        display: none;
+    }
+    .hiden_button_header{
+        display: flex;
+    }
+    .hiden_button_header button{
+background-color: transparent;
+border: none;
+    }
+    .input_container input{
+        width: 450px;
+    }
+    .input_container button{
+        width: 450px;
+    }
+}
+
+
+
+
+@media (max-width: 576px) {
+    .width {
+        width: 100%;
+         padding-inline: 20px; 
+       
+    }
+    .promo{
+        width: 575px;
+height: 667px;
+        angle: -180 deg;
+
+    }
+    .header{
+        padding-inline: 5px;
+    }
+    .logo{
+        width: 140px;
+    }
+    .middle_promo{
+        padding-top: 180px;
+    }
+    .middle_promo h2{
+        font-family: Raleway;
+font-weight: 300;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 32px;
+    }
+    .middle_promo p{
+        font-family: Raleway;
+font-weight: 300;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+
+    }
+    .grid_h3{
+        padding-block: 60px 30px;
+    }
+    .grid_container{
+        padding-inline: 0   ;
+    }
+    #hide{
+        display: none;
+    }
+    .input_container input{
+        width: 380px;
+    }
+.input_container button{
+width: 380px;
+}
+.input_container p{
+    font-size: 12px;
+}
+    .input_container h2{
+        font-size: 30px;
+    }
+    .grid_second{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3px;
+    }
+    }
+
